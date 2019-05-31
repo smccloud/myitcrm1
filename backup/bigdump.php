@@ -323,7 +323,7 @@ if (!$error && isset($_REQUEST["delete"]) && $_REQUEST["delete"]!=basename($_SER
 // Connect to the database
 
 if (!$error && !TESTMODE)
-{ $dbconnection = @mysql_connect($db_server,$db_username,$db_password);
+{ $dbconnection = @mysqli_connect($db_server,$db_username,$db_password);
   if ($dbconnection) 
     $db = mysql_select_db($db_name);
   if (!$dbconnection || !$db) 

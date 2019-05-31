@@ -420,7 +420,7 @@ $html2='Click to pay this invoice via Paymate using a valid Credit Card.
 <I>NOTE:- A small surcharge applies to this type of payment.</I><BR />';
 
 //This MySQL connection is not required
-//$link = mysql_connect( "$DB_HOST", "$DB_USER", "$DB_PASS" );
+//$link = mysqli_connect( "$DB_HOST", "$DB_USER", "$DB_PASS" );
 
 // Start of template itself
 
